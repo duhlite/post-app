@@ -81,6 +81,8 @@ GEM
     crass (1.0.4)
     erubi (1.8.0)
     execjs (2.7.0)
+    faker (2.1.2)
+      i18n (>= 0.8)
     ffi (1.11.1)
     formatador (0.2.5)
     globalid (0.4.2)
@@ -237,6 +239,9 @@ GEM
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
+    will_paginate (3.1.7)
+    will_paginate-bootstrap4 (0.2.2)
+      will_paginate (~> 3.0, >= 3.0.0)
     zeitwerk (2.1.9)
 
 PLATFORMS
@@ -248,6 +253,7 @@ DEPENDENCIES
   bootstrap
   byebug (= 9.0.6)
   coffee-rails (= 4.2.2)
+  faker
   guard (= 2.13.0)
   guard-minitest (= 2.4.4)
   jbuilder (~> 2.5)
@@ -267,6 +273,8 @@ DEPENDENCIES
   uglifier (= 3.2.0)
   web-console (>= 3.3.0)
   webpacker (~> 4.0)
+  will_paginate
+  will_paginate-bootstrap4
 
 RUBY VERSION
    ruby 2.6.3p62
